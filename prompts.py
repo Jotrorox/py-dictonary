@@ -1,10 +1,3 @@
-
-import os
-import sys
-import random as rnd
-import sqlite3 as sq
-from sqlite3.dbapi2 import connect
-
 import database as db
 
 connection = db.connect()

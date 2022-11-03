@@ -1,7 +1,3 @@
-
-import os
-import sys
-import random as rnd
 import sqlite3 as sq
 
 CREATE_WORDS_TABLE = 'CREATE TABLE IF NOT EXISTS words (id INTEGER PRIMARY KEY, english TEXT, german TEXT);'
